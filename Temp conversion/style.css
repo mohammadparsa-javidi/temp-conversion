@@ -1,0 +1,47 @@
+body{
+    background-color: #00FFAB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.temp_contain{
+    /* background-color: yellow; */
+    padding: 3rem;
+    text-align: center;
+}
+input{
+    padding: 0.5rem;
+    margin-top: 2.5rem;
+    width: 200px;
+    margin-bottom: 1rem;
+    
+}
+.text_convert{
+    color: #7ebd25;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    
+}
+.buttons button{
+    padding:1rem 2rem;
+    margin: 2rem;
+    background-color: #44d14f;
+    border: none;
+    border-radius: 0.3rem;
+}
+.buttons button:hover{
+    background-color: #11b4a4;
+    cursor: pointer;
+    box-shadow:0 0 5px #11b4a4;
+
+}
+.check{
+    color: #317814;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
